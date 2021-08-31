@@ -1,0 +1,34 @@
+﻿<h3>Sales Person Details</h3>
+
+<SfGrid Width="1200px" DataSource="Employees"> @*TValue="Order" AllowPaging="true" --> To bind data from OData service, include these 2 properties namely TValue & AllowPaging, and remove DataSource property from SfGrid tag*@
+    @*<SfDataManager Url="https://js.syncfusion.com/ejServices/Wcf/Northwind.svc/Orders" Adaptor="Adaptors.ODataAdaptor"></SfDataManager>
+    <GridColumns>
+        <GridColumn Field=@nameof(Order.OrderID) HeaderText="Order ID" IsPrimaryKey="true" TextAlign="TextAlign.Right" Width="120"></GridColumn>
+        <GridColumn Field=@nameof(Order.CustomerID) HeaderText="Customer Name" Width="150"></GridColumn>
+        <GridColumn Field=@nameof(Order.OrderDate) HeaderText=" Order Date" Format="d" Type="ColumnType.Date" TextAlign="TextAlign.Right" Width="130"></GridColumn>
+        <GridColumn Field=@nameof(Order.Freight) HeaderText="Freight" Format="C2" TextAlign="TextAlign.Right" Width="120"></GridColumn>
+        <GridColumn Field=@nameof(Order.ShipCountry) HeaderText="Ship Country" Width="150"></GridColumn>
+    </GridColumns>*@
+    <GridColumns>
+            <GridColumn Field=@nameof(Salesperson.FirstName) HeaderText="Name" Width="110"></GridColumn>
+            <GridColumn Field=@nameof(Salesperson.Title) HeaderText="Title" Width="110"></GridColumn>
+            <GridColumn Field=@nameof(Salesperson.City) HeaderText="City" Width="110"></GridColumn>
+            <GridColumn Field=@nameof(Salesperson.Postal) HeaderText="Postal Code" Width="110"></GridColumn>
+            <GridColumn Field=@nameof(Salesperson.Phone) HeaderText="Phone" Width="110"></GridColumn>
+        </GridColumns>
+</SfGrid>
+
+@code {
+
+    [Parameter]
+    public List<Salesperson>? Employees { get; set; }
+
+    //public partial class Order : ComponentBase
+    //{
+    //    public int? OrderID { get; set; }
+    //    public string? CustomerID { get; set; }
+    //    public DateTime? OrderDate { get; set; }
+    //    public double? Freight { get; set; }
+    //    public string? ShipCountry { get; set; }
+    //}
+}
