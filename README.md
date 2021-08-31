@@ -1,5 +1,5 @@
-# .NET-6.0-blazor-dynamic-components
-A simple Blazor project that helps you to render Syncfusion Blazor components dynamically in an application using the Dynamic components concept introduced in .NET 6.0.
+# Using .NET 6.0 Blazor Dynamic Components to Render Syncfusion Blazor Components Dynamically
+A quick start Blazor project that helps you to render Syncfusion Blazor components dynamically in an application using the Dynamic components concept introduced in .NET 6.0.
 
 Watch the webinar recording here: https://www.youtube.com/watch?v=97iORc6wjlE
 
