@@ -2,11 +2,11 @@
 
 This sample explains about how to render Syncfusion Blazor components dynamically in an application using the Dynamic components concept introduced in .NET 6.0.
 
-Watch the webinar recording here: https://www.youtube.com/watch?v=97iORc6wjlE
+**Watch the webinar recording here**: https://www.youtube.com/watch?v=97iORc6wjlE
 
-Reference blog: https://www.syncfusion.com/blogs/post/how-to-dynamically-render-a-component-in-a-blazor-application.aspx
+**Reference blog**: https://www.syncfusion.com/blogs/post/how-to-dynamically-render-a-component-in-a-blazor-application.aspx
 
-Reference real-time example: https://github.com/SyncfusionExamples/Dynamically-Render-a-Component-in-Blazor-Application
+**Reference real-time example**: https://github.com/SyncfusionExamples/Dynamically-Render-a-Component-in-Blazor-Application
 
 ## Prerequisites
 
